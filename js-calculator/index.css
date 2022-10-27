@@ -22,7 +22,7 @@ h1 {
     font-size: 3.3rem;
     padding: 3rem;
     text-align: center;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
 }
 button {
     background: hsl(210, 25%, 95%);
