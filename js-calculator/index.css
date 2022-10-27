@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+}
+h1 {
+ color: white;
+ text-align: center;   
+ font-size: 5rem;
+}
+.calculator {
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.521), 0px 2px 4px 0px rgb(0, 0, 0);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: 2em;
+    max-inline-size: 22rem;
+    overflow: hidden;
+    color: hsl(202, 11%, 29%);
+    background-color: white;
+}
+#res {
+    background: hsl(255, 100%, 100%);
+    font-size: 3.3rem;
+    padding: 3rem;
+    text-align: center;
+}
+button {
+    background: hsl(210, 25%, 95%);
+    border: none;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    font-size: 1.5rem;
+    inline-size: 70px;
+    block-size: 70px;
+    margin: 0.25rem;
+    border-radius: 40px;
+}
+.btn-outline-success {
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+    height: 250px;
+}
+.btn-outline-secondary {
+    color: black;
+    outline-color: black;
+}
+.btn-outline-warning{
+    color: orangered;
+    border-color: orangered;
+}
+.btn-outline-warning:hover {
+    background-color: orangered;
+    border-color: orangered;
+}
